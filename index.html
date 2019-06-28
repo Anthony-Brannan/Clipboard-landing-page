@@ -12,19 +12,30 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="images/logo.svg" alt="Clipboard" />
-      <h1>A history of everything you copy</h1>
-      <p>
+      <h1 class="heading header-heading">A history of everything you copy</h1>
+      <p class="text header-copy">
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </p>
-      <div>
-        <button type="submit">Download for iOS</button>
-        <button type="submit">Download for Mac</button>
+      <div class="download-button-container">
+        <button class="download-button download-button-ios" type="submit">
+          Download for iOS
+        </button>
+        <button class="download-button download-button-mac" type="submit">
+          Download for Mac
+        </button>
       </div>
     </header>
 
