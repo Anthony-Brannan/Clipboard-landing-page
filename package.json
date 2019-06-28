@@ -1,0 +1,22 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "Clipboard landing page",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server --browser=Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthony-Brannan/Clipboard-landing-page.git"
+  },
+  "author": "Anthony Brannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthony-Brannan/Clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/Anthony-Brannan/Clipboard-landing-page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
