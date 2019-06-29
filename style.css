@@ -89,6 +89,21 @@ html {
 }
 
 
+/* USERS SECTION */
+
+.users {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-img {
+  margin-bottom: 60px;
+}
+
+
+
 /* DOWNLOADS SECTION */
 
 .downloads {
