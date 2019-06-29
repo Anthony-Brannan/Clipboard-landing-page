@@ -78,3 +78,60 @@ html {
 .header-copy {
   margin-bottom: 40px;
 }
+
+/* FOOTER */
+
+.footer {
+  padding: 40px 0px 40px 0px;
+  background-color: rgba(158, 171, 177, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-navigation-link {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+
+.footer-navigation-link:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-social-icon {
+  margin-right: 40px;
+}
+
+.footer-social-icon:last-of-type {
+  margin-right: 0px;
+}
+
+svg path {
+  transition: all 0.2s;
+}
+
+svg:hover path {
+  fill: hsl(171, 66%, 44%);
+}
