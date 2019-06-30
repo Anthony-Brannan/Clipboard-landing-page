@@ -18,6 +18,11 @@ html {
   line-height: 36px;
 }
 
+.section-heading {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
 .text {
   font-size: 16px;
   color: hsl(201, 11%, 66%);
@@ -86,6 +91,38 @@ html {
 
 .header-copy {
   margin-bottom: 40px;
+}
+
+
+/* WORKFLOW SECTION */
+
+.workflow {
+  padding: 0px 25px 100px 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workflow-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workflow-intro {
+  margin-bottom: 20px;
+}
+
+.workflow-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.workflow-img {
+  height: 32px;
+  width: 42px;
+  margin: 40px 0px 40px 0px;
 }
 
 
