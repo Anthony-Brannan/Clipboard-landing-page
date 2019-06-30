@@ -87,6 +87,7 @@ html {
   background-image: url(images/bg-header-mobile.png);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .header-heading {
@@ -260,4 +261,52 @@ svg path {
 
 svg:hover path {
   fill: hsl(171, 66%, 44%);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1000px) {
+
+  .header {
+    background-image: url(images/bg-header-desktop.png);
+  }
+
+  .users {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .workflow {
+    padding: 0px 0px 100px 0px;
+  }
+
+  .workflow-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .workflow-content {
+    width: 350px;
+  }
+
+  .footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .footer-navigation {
+    align-items: flex-start;
+  }
+
+  .footer-navigation-link:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .footer-logo {
+    margin-bottom: 0px;
+  }
+
 }
