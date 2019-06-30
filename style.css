@@ -105,6 +105,8 @@ html {
 
 .features {
   padding: 0px 35px 100px 35px;
+  display: flex;
+  flex-direction: column;
 }
 
 .features-container {
@@ -195,6 +197,9 @@ html {
 
 .downloads {
   padding: 0px 35px 100px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .downloads-heading {
@@ -266,10 +271,77 @@ svg:hover path {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 600px) {
+  .download-button-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .download-button {
+    width: 200px;
+  }
+
+  .download-button:first-of-type {
+    margin-right: 15px;
+  }
+}
+
 @media screen and (min-width: 1000px) {
+
+  .header-copy {
+    width: 650px;
+  }
+
+  .header-heading {
+    font-size: 40px;
+  }
+
+  .section-heading {
+    font-size: 30px;
+  }
 
   .header {
     background-image: url(images/bg-header-desktop.png);
+  }
+
+  .features {
+    padding: 0px 0px 100px 0px;
+  }
+
+  .features-computer {
+    margin: 60px 100px 0px 0px;
+    width: 675px;
+    height: 525px;
+  }
+
+  .features-container {
+    flex-direction: row;
+  }
+
+  .features-content {
+    align-items: flex-start;
+  }
+
+  .features-text {
+    width: 350px;
+    text-align: left;
+  }
+
+  .features-text-intro {
+    width: 625px;
+    align-self: center;
+  }
+
+  .access {
+    padding: 0px 0px 80px 0px;
+  }
+
+  .access-devices {
+    height: 500px;
+    width: 800px;
+  }
+  .access-text {
+    width: 600px;
   }
 
   .users {
@@ -290,6 +362,11 @@ svg:hover path {
   .workflow-content {
     width: 350px;
   }
+
+   .downloads-text {
+     width: 600px;
+     
+   }
 
   .footer {
     flex-direction: row;
