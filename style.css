@@ -310,8 +310,8 @@ svg:hover path {
 
   .features-computer {
     margin: 60px 100px 0px 0px;
-    width: 675px;
-    height: 525px;
+    width: 525px;
+    height: 400px;
   }
 
   .features-container {
@@ -386,4 +386,17 @@ svg:hover path {
     margin-bottom: 0px;
   }
 
+}
+
+@media screen and (min-width: 1366px) {
+  .features-computer {
+    width: 675px;
+    height: 525px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .features-computer {
+    width: 725px;
+  }
 }
